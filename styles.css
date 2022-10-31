@@ -19,6 +19,8 @@
 html,body{
     font-family: var(--font-header);
     background-color: var(--background-color-hero);
+    width: 100%;
+    overflow-x: hidden;
     height: 100vh;
 }
 
@@ -140,7 +142,7 @@ ul{
 .provide__elements{
     display: flex;
     margin-top: 80px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-bottom: 100px; 
 }
@@ -405,7 +407,7 @@ ul{
 
 .builds__img{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 40px;
 }
